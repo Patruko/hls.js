@@ -431,7 +431,7 @@ A logger object could also be provided for custom logging: `config.debug = custo
 
 number of segments needed to start a playback of Live stream.
 
-### `maxBufferLength`
+### `maxBufferLength` *************************** YO PONDRIA AQUI 15 SEGUNDOS A VER SI SE REDUCE EL DELAY DE LA EMISION
 
 (default: `30` seconds)
 
@@ -471,7 +471,7 @@ max video loading delay used in  automatic start level selection : in that mode 
 
 if media element is expected to play and if currentTime has not moved for more than ```lowBufferWatchdogPeriod``` and if there are less than `maxBufferHole` seconds buffered upfront, hls.js will try to nudge playhead to recover playback
 
-### `highBufferWatchdogPeriod`
+### `highBufferWatchdogPeriod` ************************** YO PONDRIA 2 SEGUNDOS
 
 (default 3s)
 
@@ -571,7 +571,7 @@ Override current Media Source duration to `Infinity` for a live broadcast.
 Useful, if you are building a player which relies on native UI capabilities in modern browsers.
 If you want to have a native Live UI in environments like iOS Safari, Safari, Android Google Chrome, etc. set this value to `true`.
 
-### `liveBackBufferLength`
+### `liveBackBufferLength` ********************** YO PONDRIA ESTO CON VALOR 0
 
 (default: `Infinity`)
 
